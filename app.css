@@ -1,0 +1,93 @@
+body {
+    font-family: overpass;
+    font-weight: 400;
+    min-width: 375px;
+    max-width: 375px;
+    background-color: hsl(216, 12%, 8%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+
+}
+
+
+h1 {
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    padding-left: 1em;
+}
+
+#main {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    border-radius: 1em;
+    text-align: left;
+    border: none;
+
+}
+
+#star {
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 23%);
+    padding: 0.75em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#supp {
+    padding-left: 1.5em;
+}
+
+div>button {
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 23%);
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 1.5em;
+    width: 50px;
+    height: 50px;
+}
+
+#submit {
+    border: none;
+    border-radius: 2em;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 3px;
+    height: 3em;
+    width: 90%;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+}
+
+
+button:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+button:focus {
+    background: hsl(217, 12%, 63%);
+    color: white;
+}
+
+#submit:hover {
+    background: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.attribution {
+    color: white;
+    margin-top: 5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
