@@ -91,3 +91,48 @@ button:focus {
     letter-spacing: 1px;
     font-size: 1rem;
 }
+
+.hidden {
+    display: none;
+}
+
+#access {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    border-radius: 1em;
+    text-align: left;
+    border: none;
+
+}
+
+h2 {
+    font-weight: 700;
+    color: white;
+    padding-left: 1em;
+    margin-left: 30%;
+
+}
+
+img {
+    margin-left: 27.5%;
+    margin-top: 2em;
+}
+
+#access>div {
+    text-align: center;
+    margin-top: 1em;
+    background-color: hsl(213, 19%, 23%);
+    border: none;
+    border-radius: 2em;
+    padding: 0.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
